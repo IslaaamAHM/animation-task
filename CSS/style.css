@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background: url(../images/AdobeStock_85093896_Preview.jpeg) center no-repeat scroll;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+}
+.fig1,.fig1 img{
+    width: 100px;
+    height: 100px;
+}
+
+.fig2{
+    animation: fig2 3s linear 1s 1 alternate forwards;
+}
+@keyframes fig2{
+    0%{
+        translate: 0;
+    }
+    100%{
+        translate: 1260px;
+    }
+}
+
+.fig3 img{
+    position: relative;
+    left: 1260px;
+    transform: rotateY(180deg);
+}
+.fig3{
+    animation: fig3 3s linear 4s 1 alternate forwards;
+}
+@keyframes fig3{
+    0%{
+        translate: 0;
+    }
+    100%{
+        translate: -1260px;
+    }
+}
+
+
+.fig4{
+    animation: fig4 3s linear 7s 1 alternate forwards;
+}
+@keyframes fig4{
+    0%{
+        translate: 0;
+    }
+    100%{
+        translate: 1260px;
+    }
+}
+
+.fig5 img{
+    position: relative;
+    left:1260px;
+    transform: rotateY(180deg);
+}
+.fig5{
+    animation: fig5 3s linear 10s 1 alternate forwards;
+}
+@keyframes fig5{
+    0%{
+        translate: 0;
+    }
+    100%{
+        translate: -1260px;
+    }
+}
